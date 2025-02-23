@@ -1,8 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-</style>
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -12,19 +11,19 @@ Fonts are separated by a | */
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Playfair display";
+  --heading-font: "IM Fell French Canon SC";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #a31818;  /* headlines on a white background */ 
+  --headline-color-on-white: #b75800;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #a31818; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #b75800; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #a31818  ;
-  --nav-link-color: #a31818;
+  --paragraph-background-color: #b75800  ;
+  --nav-link-color: #b75800;
   --nav-background-color: #ffd995;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #a31818;
+  --nav-hover-background-color: #b75800;
 }
 
 
