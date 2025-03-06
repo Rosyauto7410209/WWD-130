@@ -13,7 +13,7 @@
     --headline-color-on-white: #396E94;  /* headlines on a white background */ 
     --headline-color-on-color: #d7fdec; /* headlines on a colored background */ 
     --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-    --paragraph-color-on-color: #72a1e5; /* paragraph text on a colored background */ 
+    --paragraph-color-on-color: White; /* paragraph text on a colored background */ 
     --paragraph-background-color: #3A4454  ;
     --nav-link-color: #396E94;
     --nav-background-color: #D4AC0D;
