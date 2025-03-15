@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fox Graphic Design | Set up an Appointment</title>
+
+        <link rel="stylesheet" href="styles/contactus-styles.css" />
+    </head>
+    <body>
+        <div id="content">
+            <header>
+                <a id="logo_link" href="index.html">
+                    <img class="logo" src="e2d07668b5814b80ba88087a284b5883-free.png" alt="Fox Graphic Design Logo" />
+                </a>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="portfolio.html">Rivers</a>
+                    <a href="site-plan.html">Site Plan</a>
+                    <a href="appointment.html">Contact Us</a>
+                </nav>
+
+                
+            </header>
+            <img id="hero-img" src="images\headway-5QgIuuBxKwM-unsplash.jpg" alt="Communication">
+                    <h1 class="home-title">Set up an Appointment</h1>
+
+                    <div class="button-box">
+                        <a class="book" href="appointment.html">Book Now</a>
+                    </div>
+                </section>
+            </div>
+            <main class="home-grid">
+                <div id="feedback"></div>
+
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                        <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name" />
+                        </li>
+                        <li>
+                            <label for="mail">Email:</label>
+                            <input type="email" id="mail" name="user_email" />
+                        </li>
+                        <li>
+                            <label for="msg">Message:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </li>
+                        <li class="button">
+                            <button type="submit">Send your message</button>
+                        </li>
+                    </ul>
+                </form>
+                <div>
+                    <img id="hero-img" src="images\dylan-gillis-KdeqA3aTnBY-unsplash.jpg" alt="Contact Me">  
+                 <p> My email: Charlesdurand20@gmail.com</p>   
+                 <P> My Phone Number: (+1)435-690-0468</P>
+                 <P> Where we are located: Panguitch, Utah</P>
+                </div>
+            </main>
+            <footer>
+                <p>Fox Graphic Design &copy; 2025 - Sean Durand</p>
+                <p><a href="site-plan.html">Site Plan</a></p>
+                <p><a href="appointment.html">Contact Me</a></p>
+                <div class="social">
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="images/facebook.png" alt="fb icon" />
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="images/twitter.png" alt="twitter icon" />
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="images/instagram.png" alt="instagram icon" />
+                    </a>
+                </div>
+            </footer>
+        </div>
+        <script>
+            const feedbackElement = document.getElementById("feedback");
+            const formElement = document.forms[0];
+            formElement.addEventListener("submit", function (e) {
+                e.preventDefault();
+                feedbackElement.innerHTML =
+                    "Hello " + formElement.user_name.value + "! Thank you for your message. We will get back with you as soon as possible!";
+                feedbackElement.style.display = "block";
+                document.body.classList.toggle("moveDown");
+            });
+        </script>
+    </body>
+</html>
