@@ -5,7 +5,7 @@
     /* change the values below to your colors from your palette */
   /* change the values below to your colors from your palette */
   --primary-color: #a31818   ;
-  --secondary-color: #ffd995 ;
+  --secondary-color: #a31818 ;
   --accent1-color: #b75800;
   --accent2-color: white;
 
@@ -19,7 +19,7 @@
   --paragraph-color-on-white: #b75800; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #b75800  ;
-  --nav-link-color: #b75800;
+  --nav-link-color: white;
   --nav-background-color: #ffd995;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #b75800;
@@ -264,18 +264,19 @@ form {
     height: 5em;
   }
   
-  .button {
-
-    padding-left: 90px; 
-  }
-  
-  button {
-
-    margin-left: 0.5em;
+  .block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #ffd995;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
   }
   
   #feedback {
-    background-color: #84E1BC;
+    background-color: #b75800;
     /* position: absolute; */
     /* top: 0; */
     /* left: 0;
@@ -320,7 +321,7 @@ form {
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        color: #a31818;
     }
     .rivers-card,
     .camping-card,
