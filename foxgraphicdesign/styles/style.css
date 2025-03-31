@@ -1,59 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
-
-.logo {
-    width: 80px;
-}
-
-#logo_link {
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
-}
-
-.icon {
-    width: 80px;
-    padding-top: 10px;
+.logo{
+    width: 10%;
+    border-radius: 50%;
 }
 
 
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
+nav{
+  background-color: #a31818;
 
-nav {
-    display: flex;
-    justify-content: space-around;
-}
+  display: flex;
 
-nav a {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-    padding: 35px;
+  align-items: center;
+ 
 }
+nav a{
 
-nav a:hover {
-    background-color: #396E94;
-    color: white;
+  font-size: 20px;
+  padding: 25px 20px;
+  display: block;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+
+  width: 5%;
+
 }
-
-.button-box {
-    text-align: center;
+nav a:hover{
+  background-color: #ffd995;
 }
-
-main section {
-    text-align: center;
-}
-
-background {
-    height: 725px;
+nav img:hover{
+  background-color: #ffd995;
 }
 
 body {
     height: 100%;
-    background-color: #fcfbfb;
+    background-color: #f6d1b1;
     font-family: "EB Garamond", serif;
     font-size: 22px;
     margin: 0;
@@ -65,230 +47,34 @@ body {
     box-sizing: border-box;
 }
 
-/* Create Account Page */
 
 
-a {
-    color: #b75800;
+footer{
+  background-color: #a31818;
+  color: white;
+  padding: 25px 50px;
+  /* padding-top: 15px; */
+  /* margin-top: 200px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-
-.checkbox-label {
-    display: flex;
-    align-items: center;
-    font-size: medium;
-  }
-  
-  .checkbox-label input[type="checkbox"] {
-    margin-right: 5px;
-  }
-
-
-.signin {
-   text-align: center; 
-   font-size: medium;
-   margin-top: 40px;
+footer a{
+  color: white;
+  text-decoration: none;
 }
-
-[type="create-account"] {
-    text-align: center;
-}
-
-.container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 20px;
-    max-width: 1000px;
-    padding: 30px;
-    background-color: white;
-}
-
-input[type=text], input[type=email], input[type=password], input[type=repeat-password] {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0 22px 0;
-    border:color-mix(in hsl shorter hue, color percentage, color percentage);
-    background-color: #f6f6f6;
-}
-
-input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, input[type=repeat-password]:focus {
-    background-color: #ddd;
-    outline: none;
-}
-
-.btn {
-    font-size: large;
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-}
-
-
-.btn:hover {
-    opacity: 1;
-}
-/* Create Account Page */
-
-
-h2 {
-    margin: 0;
-}
-
-header {
-    background-color: #a31818;
-    display: grid;
-    grid-template-columns: 150px auto;
-}
-
-.home-grid {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-}
-
-.home-title {
-    font-family: "Archivo", serif;
-    font-size: 2em;
-    color: #a31818;
-    margin-top: 10px;
-}
-
-h4 {
-    color: #a31818;
-}
-
-.card-img {
-    border: 1px solid #a31818;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #a31818;
-}
-
-.card-img:hover {
-    opacity: 1;
-    transform: scale(2.1);
-}
-
-.card-img, .mountains {
-    width: 100%;
-}
- .msg { /* from column lines 6–10 and row lines 6–7 */
-    background-color: #72a1e5;
-    line-height: 1.5em;
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #72a1e5;
- }
-
-
-main section img {
-    box-sizing: border-box;
-}
-
-.book:hover, .join:hover {
-    background-color: #a31818;
-    color: #396E94;
-}
-
-#background {
-    background-color: #a31818;
-}
-
-.msg {
-    background-color: #72a1e5;
-    line-height: 1.5em;
-    padding: 35px;
-}
-
-.msg h2 {
-    color: #fcfbfb;
-}
-
-.msg p {
-    color: #fcfbfb;
-    padding-bottom: 15px;
-}
-
-
-/* Global footer */
-footer { 
-    background-color: #a31818;
-    color: #fcfbfb;
-    padding: 25px 50px;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+footer a:hover{
+  color: white;
+  text-decoration: none;
 }
 
 footer .social img{
-    padding-top: 15px;
+  height: 64px;
+  width: 64px;
 }
-
-footer a {
-    color: #fcfbfb;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: #396E94;
-}
-
 footer p {
-    font-size: 1.2em;
-}
-
-footer p a:hover {
-    text-decoration: underline;
-}
-
-
-/* Responsive Design */
-
-@media screen and (max-width: 900px) {
-    #hero, .home-grid {
-        display: block;
-        height: auto;
-    }
-    nav, footer {
-        flex-direction: column;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-    #hero {
-        margin-top: 0;
-    }
-    #hero-msg {
-        margin-top: 0;
-    }
-    #hero-msg h4 {
-        display: none;
-    }
-    .home-title {
-        font-size: 25px;
-        color: #396E94;
-    }
-    .rivers-card, .camping-card, .rapids-card {
-        margin: 50px auto;
-        width: 100%;
-    }
-    #background {
-        display: none;
-    }
-    .mountains, .msg {
-        width: 100%;
-        display: block;
-        margin: 0 auto;
-    }
-    footer {
-        margin-top: 25px;
-    }
-
-
+  font-size: 1.2em;
+}    
+footer p a:hover{
+  text-decoration: none;;
 }

@@ -3,14 +3,41 @@
 
 
 
-.logo {
-    width: 80px;
+.logo{
+    width: 10%;
+    border-radius: 50%;
 }
-
 #logo_link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+}
+
+nav{
+  background-color: #a31818;
+
+  display: flex;
+
+  align-items: center;
+ 
+}
+nav a{
+
+  font-size: 20px;
+  padding: 25px 20px;
+  display: block;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+
+  width: 5%;
+
+}
+nav a:hover{
+  background-color: #ffd995;
+}
+nav img:hover{
+  background-color: #ffd995;
 }
 
 .icon {
